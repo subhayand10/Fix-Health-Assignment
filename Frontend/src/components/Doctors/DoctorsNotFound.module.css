@@ -1,0 +1,17 @@
+.doctorsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set the height of the container to 100% of the viewport height */
+}
+
+.quirkyText {
+  font-size: 24px;
+  text-align: center;
+  color: #ff6b6b; /* Choose a quirky color */
+  background-color: #ffd700; /* Choose a quirky background color */
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #ff6b6b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

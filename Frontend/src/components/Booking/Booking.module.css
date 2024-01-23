@@ -1,0 +1,55 @@
+.wrapper {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding: 75px;
+}
+
+.arrow{
+	
+}
+.introHeading button {
+	color: var(--pure-white, #fff);
+    cursor: pointer;
+    color: #6a6a6a;
+    border-radius: 54px;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 161.523%; /* 87.222px */
+	width: 200px;
+	height: 100px;
+}
+
+.vl {
+	width: 1px;
+	height: 206px;
+	background: #6a6a6a;
+}
+
+introType h3 {
+	color: var(--pure-white, #fff);
+	text-align: center;
+	font-family: Inter;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 162.523%; /* 52.007px */
+	width: 249px;
+	height: 52px;
+}
+
+.introType p {
+	color: var(--pure-white, #fff);
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 162.523%; /* 29.254px */
+
+	width: 475px;
+	height: 87px;
+	opacity: 0.3;
+}

@@ -1,0 +1,8 @@
+.clientWrapper {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: space-between;
+}

@@ -1,0 +1,128 @@
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+@media only screen and (max-width: 768px) {
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.textWrapper {
+		display: none;
+	}
+
+	.text2Wrapper {
+		display: none;
+	}
+
+	.inputContainer {
+		margin-bottom: 75px;
+	}
+}
+
+.leftWrapper {
+	display: flex;
+	text-align: left;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.textWrapper {
+	margin-bottom: 25px;
+}
+
+.textWrapper h1 {
+	width: 571px;
+	color: var(--pure-white, var(--color-black))!important;
+	font-family: Inter;
+	font-size: 66px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 147.523%;
+	color: var(--pure-white, var(--color-white));
+	font-family: Inter;
+	font-size: 66px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 147.523%;
+}
+
+.text2Wrapper {
+	margin-bottom: 25px;
+}
+
+.text2Wrapper p {
+	width: 560px;
+
+	flex-shrink: 0;
+	color: var(--pure-white, #fff);
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 162.523%;
+	opacity: 0.3;
+}
+
+.inputContainer {
+	width: 438px;
+	height: 74px;
+	flex-shrink: 0;
+	border-radius: 43px;
+	background: #1d1d1d;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 7px;
+}
+
+.inputContainer input {
+	color: var(--color-white);
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 162.523%;
+	background: #1d1d1d;
+	border: none;
+}
+
+.rectangleBtnContainer button {
+	width: 137px;
+	height: 62px;
+	flex-shrink: 0;
+	border-radius: 43px;
+	background: #e3b748;
+	color: #000;
+	text-align: center;
+	font-family: Inter;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 162.523%;
+	border: 1px solid #e3b748;
+}
+
+.imgContainer {
+	width: 467.71px;
+	height: 467.71px;
+	flex-shrink: 0;
+	border-radius: 55px;
+	background: #ff8934;
+	position: relative;
+}
+
+.container {
+	position: absolute;
+	width: 443.511px;
+	height: 509.069px;
+	flex-shrink: 0;
+	background: url(../Assets/heroImage.svg);
+	bottom: 0px;
+}
