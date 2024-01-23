@@ -77,9 +77,12 @@ const TransitionsModal: React.FC<TransitionsModalProps> = ({
       try {
         setLoading(true);
         console.log("fsafsa");
-        const data = await axios.get(`http://localhost:8082/doctors`, {
-          params: formData,
-        });
+        const data = await axios.get(
+          `https://fixhealth-backend-x4kh.onrender.com/doctors`,
+          {
+            params: formData,
+          }
+        );
         console.log(data.data);
         setDoctors(data.data);
         setLoading(false);

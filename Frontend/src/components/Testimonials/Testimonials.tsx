@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./Testimonials.module.css";
-import LeftArrow  from "../../assets/leftArrow.svg";
-import RightArrow from "../../assets/RightArrow.svg";
+// import LeftArrow  from "../../assets/leftArrow.svg";
+// import RightArrow from "../../assets/RightArrow.svg";
+import { ReactComponent as LeftArrow } from "../../assets/leftArrow.svg";
+import { ReactComponent as RightArrow } from "../../assets/RightArrow.svg";
 import TestimonialsBox from "./TestimonialsBox";
 import client1 from "../../assets/client1.svg";
 import client2 from "../../assets/client2.svg";
@@ -50,11 +52,11 @@ const Clients = () => {
           <h3>Our Happy Clients</h3>
           <div className={styles.btnContainer}>
             <button className={styles.leftArrowBtn}>
-              <img src={LeftArrow} alt="left" />
+              {/* <img src={LeftArrow} alt="left" /> */}
               {/* <LeftArrow /> */}
             </button>
             <button className={styles.rightArrowBtn}>
-              <img src={RightArrow} alt="right" />
+              {/* <img src={RightArrow} alt="right" /> */}
               {/* <RightArrow /> */}
             </button>
           </div>
