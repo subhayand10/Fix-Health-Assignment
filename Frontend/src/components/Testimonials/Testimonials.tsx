@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./Testimonials.module.css";
-// import LeftArrow  from "../../assets/leftArrow.svg";
-// import RightArrow from "../../assets/RightArrow.svg";
 import { ReactComponent as LeftArrow } from "../../assets/leftArrow.svg";
 import { ReactComponent as RightArrow } from "../../assets/RightArrow.svg";
 import TestimonialsBox from "./TestimonialsBox";
@@ -14,33 +12,25 @@ const data = [
     id: 1,
     image: client1,
     name: "Jane Cooper",
-    designation: "Ceo of Hunt",
+    designation: "Heart Patient",
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officiaconsequatduis enim velit mollit Exer. sitaliqua dolor do amet sint. Velit officia",
+      "Dr. Rahul Ranjan is an exceptional and dedicated healthcare professional who has consistently demonstrated unwavering commitment to the well-being of his patients.",
   },
   {
     id: 2,
     image: client2,
     name: "Devon Lane",
-    designation: "Ceo of Hunt",
+    designation: "Back pain patient",
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officiaconsequatduis enim velit mollit Exer. sitaliqua dolor do amet sint. Velit officia",
+      "Dr. Rahul Ranjan is an exceptional and dedicated healthcare professional who has consistently demonstrated unwavering commitment to the well-being of his patients. ",
   },
   {
     id: 3,
     image: client3,
     name: "Robert Fox",
-    designation: "Ceo of Hunt",
+    designation: "Kidney stones patient",
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officiaconsequatduis enim velit mollit Exer. sitaliqua dolor do amet sint. Velit officia",
-  },
-  {
-    id: 4,
-    image: client3,
-    name: "Robert Fox",
-    designation: "Ceo of Hunt",
-    description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officiaconsequatduis enim velit mollit Exer. sitaliqua dolor do amet sint. Velit officia",
+      "Dr. Rahul Ranjan is an exceptional and dedicated healthcare professional who has consistently demonstrated unwavering commitment to the well-being of his patients.",
   },
 ];
 

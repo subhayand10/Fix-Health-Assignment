@@ -6,3 +6,15 @@
 	gap: 1rem;
 	justify-content: space-between;
 }
+
+.loading{
+margin-top: 1rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.loading p{
+font-weight: bold;
+}

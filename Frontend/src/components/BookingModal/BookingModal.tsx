@@ -33,15 +33,17 @@ interface TransitionsModalProps {
   open: boolean;
   setOpenModal: React.Dispatch<React.SetStateAction<boolean>>;
   setDoctors: React.Dispatch<React.SetStateAction<any[]>>;
+  setLoading: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const TransitionsModal: React.FC<TransitionsModalProps> = ({
   open,
   setOpenModal,
   setDoctors,
+  setLoading
 }) => {
   const navigate = useNavigate();
-  const [loading, setLoading] = useState<boolean>(true);
+  //const [loading, setLoading] = useState<boolean>(true);
   const [formData, setFormData] = useState({
     name: "",
     phoneNumber: "",

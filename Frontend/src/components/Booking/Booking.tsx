@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import styles from "./Booking.module.css";
 import Modal from "../BookingModal/BookingModal"
 
-const Introduction = ({ setDoctors }) => {
+const Introduction = ({ setDoctors,setLoading }) => {
   const [openModal, setOpenModal] = useState(false);
   const handleModal = (e) => {
     setOpenModal(true);
@@ -14,6 +14,7 @@ const Introduction = ({ setDoctors }) => {
           open={openModal}
           setOpenModal={setOpenModal}
           setDoctors={setDoctors}
+          setLoading={setLoading}
         />
       ) : (
         ""

@@ -4,7 +4,7 @@ import HeroSection from "./HeroSection/HeroSection";
 import Booking from "./Booking/Booking";
 import Testimonials from "./Testimonials/Testimonials";
 
-const LandingPage = ({setDoctors}) => {
+const LandingPage = ({setDoctors,setLoading}) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.landingPage1}>
@@ -12,7 +12,7 @@ const LandingPage = ({setDoctors}) => {
       </div>
       <div className={styles.contentBackground}>
         <div className={styles.contentWrapper}>
-          <Booking setDoctors={setDoctors} />
+          <Booking setDoctors={setDoctors} setLoading={setLoading} />
           <Testimonials />
         </div>
       </div>

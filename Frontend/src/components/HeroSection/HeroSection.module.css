@@ -35,9 +35,9 @@
 	margin-bottom: 25px;
 }
 
-.textWrapper h1 {
+.textWrapper h3 {
 	width: 571px;
-	color: var(--pure-white, var(--color-black))!important;
+	color: var(--pure-white, var(--color-black));
 	font-family: Inter;
 	font-size: 66px;
 	font-style: normal;

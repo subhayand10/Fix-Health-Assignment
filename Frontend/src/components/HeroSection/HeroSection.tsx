@@ -8,9 +8,9 @@ const HeroSection = () => {
     <div className={styles.wrapper}>
       <div className={styles.leftWrapper}>
         <div className={styles.textWrapper}>
-          <h1>
+          <h3>
             Experience the Benefits of Advanced Technology and Expert Care
-          </h1>
+          </h3>
         </div>
         <div className={styles.text2Wrapper}>
           <p>

@@ -6,11 +6,12 @@ import Doctors from "./components/Doctors/Doctors";
 
 function App() {
   const [doctors, setDoctors] = useState([]);
+   const [loading, setLoading] = useState<boolean>(false);
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LandingPage setDoctors={setDoctors} />} />
-        <Route path="/doctors" element={<Doctors data={doctors}/>} />
+        <Route path="/" element={<LandingPage setDoctors={setDoctors} setLoading={setLoading} />} />
+        <Route path="/doctors" element={<Doctors data={doctors} loading={loading}/>} />
       </Routes>
     </Router>
   );
